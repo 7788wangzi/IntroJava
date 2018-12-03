@@ -43,4 +43,9 @@ public class Person {
             this.age=age;
         }
     }
+    
+    public boolean sameName(Person other)
+    {
+        return this.name==other.name;
+    }
 }
