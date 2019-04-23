@@ -7,8 +7,8 @@
 
 `service()` method  
   Request Method - Get, Post, Put, Delete  
-  doGet  
-  doPost etc.  
+  `doGet(HttpServletRequest, HttpServletResponse)  `  
+  `doPost(HttpServletRequest, HttpServletResponse)  `  
 
 `destroy()` method
 - the `destroy` method only execute once when the application is stopped.
