@@ -1,4 +1,5 @@
-## Java中的static
+## 十四：-Java中的static
+
 在我们接触对象类之前，我们写的类变量和方法都是有`static`关键字的，不相信吗？让我们来回顾第一个Java版的hello world程序：
 ```java
 public class Main {
@@ -38,6 +39,7 @@ public class StaticObj {
 }
 ```
 static属性与非static属性(对象属性)的区别可以参考如下表格：
+
 |static属性|非static属性(对象属性)|
 |---|---|
 |为本类的所有实例对象共享|只是实例对象的一部分|
