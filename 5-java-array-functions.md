@@ -1,4 +1,4 @@
-## 数组常用属性与方法
+## 五：数组常用属性与方法
 
 在数组中，我们最常用的一个属性(field)是length，它是指数组的长度。对于一个整型数组`int[] nums = new int[5];`，获取其长度的语句如下：
 ```java
@@ -36,6 +36,7 @@ System.out.println(Arrays.toString(nums)); // 输出 [11, 3, 5, 6, 8, 2]
 System.out.println(nums); // 输出[I@6cd8737
 ```
 除了`Arrays.toString()`方法，Arrays提供了以下常用数组方法：
+
 |方法名称|例子|描述|
 |---|---|---|
 |equals(array1, array2)|Arrays.equals(a,b); 或a.equals(b);|如果两个数组包含的元素个数相同，数组中每一个元素相同，则返回true，否则返回false|
@@ -43,7 +44,9 @@ System.out.println(nums); // 输出[I@6cd8737
 |copyOf(array, newLength)| Arrays.copyOf(a,10)|从数组a创建一个新数组，新数组长度为10，如a.length>=10，则把a的前10个元素拷贝给新数组，否则，将a的所有元素拷贝给新数组，新数组中剩余元素使用默认值填充|
 |sort(array)|Arrays.sort(a)|将数组a中的元素按照从小到大排序|
 |binarySearch(array, value)|Arrays.binarySearch(a, 10)|在一个已排序的数组中，查询给定数值的索引值，若找不到给定值，返回-1|
+
 点击此处来查看[Arrays的完整的方法定义](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html?is-external=true)。
+
 ### 数组是个引用类型
 在上一课我们也提到过数组是一个引用类型，引用类型与基本数据类型的根本区别是他们传递的是内存地址，而不是值本身。
 首先，我们定义两个方法，一个方法接收int型的参数，另一个方法接收int[]类型的参数，在两个方法中，修改传进来参数的值，然后在main函数中查看调用两个方法以后，变量的值是否被修改。
