@@ -1,5 +1,6 @@
-## Java封装
-![Java封装](https://upload-images.jianshu.io/upload_images/5761673-bee43b778610dc9a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+## 十三：Java封装
+
+![Java封装](static/5761673-bee43b778610dc9a.png)
 
 ### 什么是Java封装
 在真实的世界中， 我们有个伟大的概念，叫做**抽象**，抽象是现代世界最伟大的发明。抽象是指人们在使用某一产品的时候，只需要依据使用手册了解如何操作产品，而不需要学习产品的原理和相关产品的实现细节。比如，要使用吹风机，我们只需要知道将吹风机插上电源，打开开关，而不需要去了解关于电动机，风叶，电热元件等的工作原理。抽象将如何使用和如何实现的分离成了两个部分，对于普通人，我们只需要知道如何使用部分， 不用去关心如何实现的部分。
@@ -62,7 +63,7 @@ private returnType MethodName()
 以上getLogName方法只在这个类内部被使用，在类外不可见。
 
 ### private构造函数
-同private方法一样，类的构造函数也可以声明为private的，这样子的类的构造函数只能被本类使用，在客户类中，不可以使用private的构造函数来定义对象。我们来看看在**[类的构造方法](https://www.jianshu.com/p/898d6bbea8eb?utm_campaign=maleskine&utm_content=note&utm_medium=reader_share&utm_source=qzone)**章节的示例代码，如果我们不想让客户设置年龄，那么我们可以将第一个构造方法设置为private，示例代码如下：
+同private方法一样，类的构造函数也可以声明为private的，这样子的类的构造函数只能被本类使用，在客户类中，不可以使用private的构造函数来定义对象。我们来看看在**[类的构造方法](https://www.jianshu.com/p/898d6bbea8eb?utm_campaign=maleskine&utm_content=note&utm_medium=reader_share&utm_source=qzone)** 章节的示例代码，如果我们不想让客户设置年龄，那么我们可以将第一个构造方法设置为private，示例代码如下：
 ```java
     private Person(String name, int age)
     {
