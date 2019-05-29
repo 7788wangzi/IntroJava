@@ -1,4 +1,4 @@
-## 可变数组ArrayList
+## 十：Java中的类
 
 数组为存放一组相同数据类型的数据提供了方便，并且通过数组索引index很容易实现对元素的存取，但是数组也存在如下限制：
 
@@ -16,12 +16,14 @@ ArrayList<Object> arrayListName = new ArrayList<Object>();
 ```
 
 由于`<>`中只能是对象类型，我们在声明基本数据类型的数组变量时，是不能写作`ArrayList<int> a = new ArrayList<int>();` 这种形式的，解决方法是Java帮我们封装了与基本数据类型相对应的对象类，如下表所示是基本数据类型的对象类：
+
 |基本数据类型|对象类|
 |---|---|
 |int|Integer|
 |char|Character|
 |boolean|Boolean|
 |double|Double|
+
 通过封装类，我们可以定义基本数据类型的ArrayList数组变量了：
 ```java
 ArrayList<Integer> intArrayList = new ArrayList<Integer>();
