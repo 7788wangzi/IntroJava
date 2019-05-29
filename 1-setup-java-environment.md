@@ -1,4 +1,4 @@
-## 搭建Java开发环境-下载Java
+## 一：搭建Java开发环境-下载Java
 
 ### 下载Java
 1. 从Oracle官网下载Java Development Kit (JDK)，打开网址[http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html "download JDK")
