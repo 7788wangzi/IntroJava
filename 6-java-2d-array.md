@@ -19,7 +19,7 @@ int[][] nums = new int[3][5];
 
 也可以在创建二维数组的同时给每一个元素赋值，参考如下语句：
 
-![2d array](media/6-2d-array.PNG)
+![2d array](static/6-2d-array.PNG)
 
 
 通过以上语句，我们创建了一个2行5列的二维数组，并用数值初始化了数组的每一个元素。
